@@ -10,14 +10,14 @@ We hope to make this process easier with a hackpack!
 The goal of this hackpack is to make iterating on your models easy while also providing for quick integration into apps.
 
 We include:
-1. Jupyter notebooks for different types of tasks:
+1. Jupyter notebooks for different types of tasks and prebuilt models:
     * Natural Language
-        * 
+        *  
     * Computer Vision
     * Structured/Tabular data
     * Generative Models
     * Adding your own datasets
-2. Export notebooks to turn your models into a callable API or a CoreML model
+    * Export models into a callable API or a CoreML model
  
 ## Getting Started
 ### Installing
