@@ -12,6 +12,9 @@ __pycache__/
 # checkpoint files
 models/cv/checkpoint/
 
+# ONNX Proto files
+models/cv/*.proto
+
 # Distribution / packaging
 .Python
 build/
