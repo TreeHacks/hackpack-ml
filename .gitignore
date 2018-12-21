@@ -9,6 +9,9 @@ __pycache__/
 # .idea
 .idea/
 
+# checkpoint files
+models/cv/checkpoint/
+
 # Distribution / packaging
 .Python
 build/
