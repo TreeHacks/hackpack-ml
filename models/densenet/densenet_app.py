@@ -10,7 +10,7 @@ from PIL import Image
 from models import densenet121
 
 app = Flask(__name__)
-cp = torch.load('models/cv/checkpoint/best_model.pth.tar')
+cp = torch.load('models/densenet/checkpoint/best_model.pth.tar')
 net = densenet121()
 net.load_state_dict(cp['net'])
 net.eval()
