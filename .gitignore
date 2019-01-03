@@ -15,6 +15,9 @@ models/cv/checkpoint/
 # ONNX Proto files
 models/*/*.proto
 
+.DS_Store
+models/.DS_Store
+
 # Distribution /
 packagd/
 develop-eggs/
