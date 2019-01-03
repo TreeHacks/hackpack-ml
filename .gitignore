@@ -13,11 +13,10 @@ __pycache__/
 models/cv/checkpoint/
 
 # ONNX Proto files
-models/cv/*.proto
+models/*/*.proto
 
-# Distribution / packaging
-.Python
-build/
+# Distribution /
+packagd/
 develop-eggs/
 dist/
 downloads/
