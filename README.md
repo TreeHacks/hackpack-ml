@@ -11,13 +11,13 @@ The goal of this hackpack is to make iterating on your models easy while also pr
 
 We include:
 1. Jupyter notebooks for different types of tasks and prebuilt models:
-    * Computer Vision
-    * Natural Language *
-    * Structured/Tabular data *
-    * Generative Models *
-    * Adding your own datasets *
+    * Image classification (DenseNet)
+    * Generative Adversarial Networks (DCGAN) *
+    * Regression *
+    * Variational Autoencoder *
+    * Integrating datasets into PyTorch *
     
-Each section includes a Flask server for quickly deploying your trained models.
+2. A Flask server per model to deploy as an API.
 
  \* = Work in progress
  
