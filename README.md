@@ -1,6 +1,6 @@
 # hackpack-ml
 
-Make and deploy ML hacks in PyTorch
+Make and deploy ML hacks in PyTorch.
 
 Training and iterating on ML models during hackathons poses challenges due to the limited time of the event. 
 We hope to make this process easier with a hackpack!
@@ -22,6 +22,8 @@ We include:
  \* = Work in progress
  
 ## Getting Started
+
+This hackpack assumes some prior understanding of Python. Understanding of Deep Learning techniques is greatly beneficial but not required. If you are interested in learning, [Deep Learning by Goodfellow et al.](https://www.deeplearningbook.org/) is a good starting point.
 ### Installing
 ```
 !pip3 install torchvision
