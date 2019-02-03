@@ -23,9 +23,10 @@ Both notebooks are also hosted on Google Colab, a free Jupyter notebook environm
 They are accessible at <a href='https://colab.research.google.com/drive/1JA1CDouBu2q8ivjWK8eMXaOJXR00-RaU'>dataset_neural_nets</a> and <a href='https://colab.research.google.com/drive/1KgxeCiC01kGk6b0hXiCQEKfphyDzoay5'>densenet_web</a> respectively. Feel free to open them in the playground environment or copy!
  
 ### Installing
-If you wish to work on the notebooks locally, you can quickly spin up a environment 
+If you wish to work on the notebooks locally, the dependencies are listed in `environment.yml`. 
+Create a new <a href='https://anaconda.org/'>Conda</a> environment with:
 ```
-!pip3 install torchvision
+conda env create --file=environment.yml
 ```
 ### License
 MIT
