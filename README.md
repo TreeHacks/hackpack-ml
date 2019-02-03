@@ -12,19 +12,21 @@ We include:
  2. An application-focused notebook in which we load and train a DenseNet model for image classification on MNIST and CIFAR10 datasets, 
     and then export the model into a Flask server as our own API:
     `/models/densenet_web/densenet.ipynb`
- 
+    
 ## Getting Started
 
 This hackpack assumes some prior understanding of Python. Understanding of Deep Learning techniques is greatly beneficial but not required. If you are interested in learning, [Deep Learning by Goodfellow et al.](https://www.deeplearningbook.org/) is a good starting point.
+
+### Google Colab
+
+Both notebooks are also hosted on Google Colab, a free Jupyter notebook environment with GPU/TPU support. 
+They are accessible at <a href='https://colab.research.google.com/drive/1JA1CDouBu2q8ivjWK8eMXaOJXR00-RaU'>dataset_neural_nets</a> and <a href='https://colab.research.google.com/drive/1KgxeCiC01kGk6b0hXiCQEKfphyDzoay5'>densenet_web</a> respectively. Feel free to open them in the playground environment or copy!
+ 
 ### Installing
-You can quickly spin up a torch environment with the following command:
+If you wish to work on the notebooks locally, you can quickly spin up a environment 
 ```
 !pip3 install torchvision
 ```
-## Deployment
-### Google Colab
-(work in progress)
-
 ### License
 MIT
 
