@@ -2,29 +2,23 @@
 
 Make and deploy ML hacks in PyTorch
 
-Training and iterating on ML models during hackathons poses challenges due to the limited time of the event. 
-We hope to make this process easier with a hackpack!
-
 ### Features
-
-The goal of this hackpack is to make iterating on your models easy while also providing for quick integration into apps.
+This hackpack aims to make iterating on your models easy while also providing for quick integration into apps. 
 
 We include:
-1. Jupyter notebooks for different types of tasks and prebuilt models:
-    * Image classification (DenseNet)
-    * Generative Adversarial Networks (DCGAN) *
-    * Regression *
-    * Variational Autoencoder *
-    * Integrating datasets into PyTorch *
+ 1. An introductory notebook in which we load our own dataset into PyTorch and build a simple neural network for regression on tabular data:
+    `/models/dataset_nn/dataset_neural_nets.ipynb`
     
-2. A Flask server per model to deploy as an API.
-
- \* = Work in progress
+ 2. An application-focused notebook in which we load and train a DenseNet model for image classification on MNIST and CIFAR10 datasets, 
+    and then export the model into a Flask server as our own API:
+    `/models/densenet_web/densenet.ipynb`
  
 ## Getting Started
 ### Installing
+You can quickly spin up a torch environment with the following command:
 ```
 !pip3 install torchvision
 ```
 ## Deployment
 ### Google Colab
+(work in progress)
