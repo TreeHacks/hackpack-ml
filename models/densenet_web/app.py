@@ -7,7 +7,7 @@ import torch
 from torchvision.transforms.functional import to_tensor
 from PIL import Image
 
-from model import densenet121
+from .model import densenet121
 
 app = Flask(__name__)
 cp = torch.load('models/densenet_web/checkpoint/best_model.pth.tar')
