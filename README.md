@@ -1,6 +1,6 @@
 # hackpack-ml
 
-Make and deploy ML hacks in PyTorch.
+Learn how to make and deploy ML hacks in PyTorch.
 
 ### Features
 This hackpack aims to make iterating on your models easy while also providing for quick integration into apps. 
